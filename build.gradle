@@ -38,7 +38,7 @@ dependencies {
     // end::tests[]
 }
 
-def dockerImageName = "bentis/${projectName}"
+def dockerImageName = "moovel/${projectName}"
 
 docker {
     baseImage 'moovel/jvm-service:1.0'
